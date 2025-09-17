@@ -93,6 +93,25 @@
     cursor: pointer;
     color: #ff3399;
   }
+  /* Responsive headline for tablets and mobiles */
+
+@media (max-width: 768px) {
+  #shine {
+    font-size: 40px; /* smaller on iPads/tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  #shine {
+    font-size: 28px; /* smaller on phones */
+  }
+  
+  #hedlinecontainer {
+    top: 10px; /* reduce top spacing on small screens */
+    padding: 0 10px; /* add some side padding */
+  }
+}
+
 </style>
 </head>
 <body>
