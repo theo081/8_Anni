@@ -95,14 +95,29 @@
   }
   /* Responsive headline for tablets and mobiles */
 
+@media (max-width: 768px) {
+  #shine {
+    font-size: 40px; /* smaller on iPads/tablets */
+  }
+}
 
+@media (max-width: 480px) {
+  #shine {
+    font-size: 30px; /* smaller on phones */
+  }
+  
+  #hedlinecontainer {
+    top: 10px; /* reduce top spacing on small screens */
+    padding: 0 10px; /* add some side padding */
+  }
+}
 
 </style>
 </head>
 <body>
 
 <div id="hedlinecontainer">
-  <div id="shine"> Happy 8-month Mumu 💞</div>
+  <div id="shine">💞 Happy 8-month Mumu 💞</div>
 </div>
 
 <div id="slideshow"></div>
